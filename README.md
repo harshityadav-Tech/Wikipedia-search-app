@@ -85,7 +85,7 @@ This project is licensed under the MIT License.
 **Harshit Yadav**
 
 - GitHub: https://github.com/harshityadav-Tech
-- LinkedIn: 
+- LinkedIn: www.linkedin.com/in/harshit-yadav08505
 
 ---
 
