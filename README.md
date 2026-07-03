@@ -1,7 +1,8 @@
 # 📚 WikiSearch
 A modern and responsive Wikipedia Search Application built using **HTML, CSS, JavaScript, Bootstrap, and Fetch API**. Search Wikipedia articles in real time with a clean, user-friendly interface.
-## 🚀 Live Demo
 
+## 🚀 Live Demo
+https://harshityadav-tech.github.io/Wikipedia-search-app/
 
 
 ## ✨ Features
