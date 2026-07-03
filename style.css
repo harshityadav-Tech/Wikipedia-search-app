@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+body {
+    background: linear-gradient(135deg, #eef2ff, #ffffff);
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+.main-container {
+    max-width:900px;
+    margin:auto;
+    padding:50px 20px;
+}
+
+.wiki-search-header {
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.08);
+    padding:40px;
+}
+
+.wiki-logo {
+    margin-bottom: 30px;
+    width: 150px;
+}
+
+.search-input{
+    width:100%;
+    height:55px;
+    border-radius:30px;
+    border:none;
+    padding:0 20px;
+    font-size:18px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+.search-input:focus{
+    outline:none;
+    box-shadow:0 0 0 4px #dbeafe;
+}
+
+.search-results{
+    margin-top:30px;
+}
+
+.result-item{
+    background:white;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.result-item:hover{
+    transform:translateY(-5px);
+}
+.result-item{
+    animation:fadeIn .4s ease;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(20px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+.result-title{
+    font-size:24px;
+    font-weight:bold;
+    color:#1d4ed8;
+    text-decoration:none;
+}
+
+.result-title:hover{
+    text-decoration:underline;
+}
+
+.link-description{
+    color:#555;
+    font-size:16px;
+    line-height:1.7;
+}
+
+.result-url{
+    color:#16a34a;
+    font-size:15px;
+}
